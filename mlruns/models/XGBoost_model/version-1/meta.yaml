@@ -1,0 +1,14 @@
+aliases: []
+creation_timestamp: 1750774320264
+current_stage: None
+description: ''
+last_updated_timestamp: 1750774320264
+name: XGBoost_model
+run_id: 6fad7ce1c0134d0b8ab8dca931773bd2
+run_link: ''
+source: runs:/6fad7ce1c0134d0b8ab8dca931773bd2/model
+status: READY
+status_message: null
+storage_location: runs:/6fad7ce1c0134d0b8ab8dca931773bd2/model
+user_id: null
+version: 1

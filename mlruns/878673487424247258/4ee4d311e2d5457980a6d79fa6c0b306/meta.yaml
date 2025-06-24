@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/878673487424247258/4ee4d311e2d5457980a6d79fa6c0b306/artifacts
+end_time: 1750774240356
+entry_point_name: ''
+experiment_id: '878673487424247258'
+lifecycle_stage: active
+run_id: 4ee4d311e2d5457980a6d79fa6c0b306
+run_name: Lasso
+run_uuid: 4ee4d311e2d5457980a6d79fa6c0b306
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1750774217780
+status: 3
+tags: []
+user_id: bcs

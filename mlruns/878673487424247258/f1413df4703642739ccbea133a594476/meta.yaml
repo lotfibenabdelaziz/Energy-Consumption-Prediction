@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/878673487424247258/f1413df4703642739ccbea133a594476/artifacts
+end_time: 1750774199134
+entry_point_name: ''
+experiment_id: '878673487424247258'
+lifecycle_stage: active
+run_id: f1413df4703642739ccbea133a594476
+run_name: Linear Regression
+run_uuid: f1413df4703642739ccbea133a594476
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1750774161998
+status: 3
+tags: []
+user_id: bcs

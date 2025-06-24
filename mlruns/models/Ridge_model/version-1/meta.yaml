@@ -1,0 +1,14 @@
+aliases: []
+creation_timestamp: 1750774217611
+current_stage: None
+description: ''
+last_updated_timestamp: 1750774217611
+name: Ridge_model
+run_id: 81d9a58ccae24baeb84a293cbce2e5a4
+run_link: ''
+source: runs:/81d9a58ccae24baeb84a293cbce2e5a4/model
+status: READY
+status_message: null
+storage_location: runs:/81d9a58ccae24baeb84a293cbce2e5a4/model
+user_id: null
+version: 1

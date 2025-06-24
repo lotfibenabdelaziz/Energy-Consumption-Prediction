@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/878673487424247258/9092b0174104407fbcff6f1b723a58d3/artifacts
+end_time: 1750774272999
+entry_point_name: ''
+experiment_id: '878673487424247258'
+lifecycle_stage: active
+run_id: 9092b0174104407fbcff6f1b723a58d3
+run_name: Decision Tree
+run_uuid: 9092b0174104407fbcff6f1b723a58d3
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1750774240453
+status: 3
+tags: []
+user_id: bcs

@@ -1,0 +1,14 @@
+aliases: []
+creation_timestamp: 1750774199022
+current_stage: None
+description: ''
+last_updated_timestamp: 1750774199022
+name: Linear_Regression_model
+run_id: f1413df4703642739ccbea133a594476
+run_link: ''
+source: runs:/f1413df4703642739ccbea133a594476/model
+status: READY
+status_message: null
+storage_location: runs:/f1413df4703642739ccbea133a594476/model
+user_id: null
+version: 1
