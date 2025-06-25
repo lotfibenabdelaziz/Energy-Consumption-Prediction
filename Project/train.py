@@ -1,5 +1,6 @@
 import pandas as pd
 import numpy as np
+import joblib
 from sklearn.model_selection import train_test_split, ShuffleSplit, GridSearchCV
 from sklearn.linear_model import LinearRegression, Ridge, Lasso
 from sklearn.tree import DecisionTreeRegressor
@@ -96,10 +97,28 @@ def find_best_model_using_gridsearchcv(X, Y):
 if __name__ == '__main__':
     df = load_and_preprocess_data()
 
-    # Target and Features
-    X = df.drop(['total_energy_consumption', 'log_energy'], axis=1)
-    Y = df['log_energy']  # log-transformed target
+    # Create a log-transformed target column
+    df['log_energy'] = np.log1p(df['total_energy_consumption'])  # log1p handles zero safely
 
+    # Define features and target
+    X = df.drop(['total_energy_consumption', 'log_energy'], axis=1)
+    Y = df['log_energy']
+
+    # Run model search
     best_models_df = find_best_model_using_gridsearchcv(X, Y)
+
+    # Show and save results
     print(best_models_df)
     best_models_df.to_csv("best_models_results.csv", index=False)
+    
+    # Save the best model
+    best_model = best_models_df.iloc[0]['model']  
+    joblib.dump(best_model, "best_model.joblib")
+    print("Best model saved as best_model.joblib")
+
+    # Log with MLflow
+    mlflow.log_artifact("best_model.joblib")
+
+    # Log with MLflow
+    mlflow.log_artifact("best_models_results.csv")
+    mlflow.end_run()
